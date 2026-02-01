@@ -1,0 +1,7 @@
+127.0.0.1 - - [10/Oct/2000:13:55:36 -0700] "GET /index.html HTTP/1.0" 200 2326
+127.0.0.1 - - [10/Oct/2000:13:56:01 -0700] "GET /about.html HTTP/1.0" 200 1234
+192.168.1.1 - - [10/Oct/2000:13:58:23 -0700] "GET /contact.html HTTP/1.0" 404 500
+192.168.1.1 - - [10/Oct/2000:14:00:10 -0700] "POST /submit HTTP/1.0" 201 456
+127.0.0.1 - - [10/Oct/2000:14:05:00 -0700] "GET /api/data HTTP/1.0" 500 120
+{"ip": "10.0.0.1", "method": "GET", "endpoint": "/json-api", "status": 200, "size": 1024}
+{"ip": "10.0.0.2", "method": "POST", "endpoint": "/json-upload", "status": 403, "size": 0}
